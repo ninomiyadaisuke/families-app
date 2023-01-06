@@ -5,5 +5,5 @@ module.exports = {
   exportType: 'default',
   includePaths: ['./src/styles'],
   additionalData: `@use "./src/styles/variables.scss" as *;`,
-  ignore: ['**/variables.scss', '**/variables/**'],
+  ignore: ['**/variables.scss', '**/variables/**','**/base.scss'],
 }
