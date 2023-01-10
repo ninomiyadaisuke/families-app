@@ -3,6 +3,7 @@ module.exports = {
   ignoreFiles: [
     // node_modulsディレクトリ配下にあるCSSを対象外する。
     '**/node_modules/**',
+    './src/styles/base.scss'
   ],
   extends: [
     'stylelint-config-recommended-scss', // scssのための拡張ルール追加
