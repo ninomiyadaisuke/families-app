@@ -16,7 +16,8 @@
     "test": "eslint --fix -f table './src/**/*.ts' './src/**/*.tsx'",
     "pretty-quick": "pretty-quick",
     "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "style-lint":"stylelint --fix  './src/**/*.{css,scss}'"
   },
   "dependencies": {
     "@hookform/resolvers": "^2.9.10",
@@ -59,6 +60,7 @@
       "eslint --fix -f table"
     ],
     "src/**/*.{css,scss}": [
+      "prettier --write",
       "stylelint --fix"
     ]
   }
