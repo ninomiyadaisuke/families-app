@@ -1,5 +1,5 @@
 module.exports = {
-  plugin: ['stylelint-scss', 'stylelint-order'],
+  plugin: ['stylelint-scss',],
   ignoreFiles: [
     // node_modulsディレクトリ配下にあるCSSを対象外する。
     '**/node_modules/**',
