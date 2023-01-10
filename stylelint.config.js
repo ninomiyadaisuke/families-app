@@ -1,5 +1,5 @@
 module.exports = {
-  plugin: ['stylelint-scss',],
+  plugin: ['stylelint-scss'],
   ignoreFiles: [
     // node_modulsディレクトリ配下にあるCSSを対象外する。
     '**/node_modules/**',
@@ -10,12 +10,12 @@ module.exports = {
     'stylelint-config-prettier', // Prettierとの競合ルールをOFFにする
   ],
   rules: {
-    'order/properties-alphabetical-order': true,
+    'order/properties-alphabetical-order': true, // アルファベット順
     'at-rule-no-unknown': null,
     'scss/at-rule-no-unknown': [
       true,
       {
-        ignoreAtRules: ['use', 'forward'],
+        ignoreAtRules: ['use', 'forward', 'include', 'mixin', 'each'],
       },
     ],
   },
