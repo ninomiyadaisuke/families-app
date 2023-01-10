@@ -57,6 +57,9 @@
     "*.{ts,tsx}": [
       "prettier --write",
       "eslint --fix -f table"
+    ],
+    "src/**/*.{css,scss}": [
+      "stylelint --fix"
     ]
   }
 }
