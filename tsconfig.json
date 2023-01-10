@@ -19,6 +19,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "typed-scss-modules.config.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "typed-scss-modules.config.js","stylelint.config.js"],
   "exclude": ["node_modules"]
 }
